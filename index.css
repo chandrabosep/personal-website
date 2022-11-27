@@ -23,11 +23,19 @@ i{
     height: 100%;
     padding: 50px 50px 0 40px;
 }
+
 .greetings{
     margin-top: 1rem;
     font-size: 40px;
     letter-spacing: 0.00938em;
+    @keyframes type{
+        from { 
+            width: 0; 
+            } 
+    }
 }
+
+
 .text{
     margin-top: 1rem;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
@@ -56,6 +64,13 @@ i{
 .add-sty{
     width: 6.5rem !important;
     height: 2.5rem !important;
+    color: #BD5FFF;
+    background-color: #222;
+    width: 5.3rem; 
+    height: 2.7rem    ;
+    border:#BD5FFF 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .proj{
@@ -104,18 +119,26 @@ i{
     color: #fff;
     background-color: #BD5FFF;
     width: 5.3rem; 
-    height: 2.7rem    ;
+    height: 2.5rem    ;
     border:#BD5FFF 1px solid;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
 }
 .cd{
     background-color: #333;
-    border: #ccc 1px solid;
-
+    border: rgba(255, 255, 255, 0.23) 1px solid;
 }
 
 @media only screen and (max-width:600px){
+    .profile{
+        padding: 20px 12px 0 12px !important;
+    }
+    .add{
+        padding: 0 12px !important;
+    }
+    .proj{
+        padding:0 12px !important;
+    }
     .text{
         width: 100%;
         font-size: 20px;
