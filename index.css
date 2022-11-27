@@ -28,11 +28,6 @@ i{
     margin-top: 1rem;
     font-size: 40px;
     letter-spacing: 0.00938em;
-    @keyframes type{
-        from { 
-            width: 0; 
-            } 
-    }
 }
 
 
