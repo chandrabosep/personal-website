@@ -70,11 +70,10 @@ i{
     margin-inline-end: 5px;
 }
 .add-sty-outline{
-   width: 6.5rem !important;
+    width: 6.5rem !important;
     height: 2.5rem !important;
     color: #FFF  ;
     background-color: #222;
-  
     width: 5.3rem; 
     height: 2.7rem    ;
     border:#BD5FFF 1px solid;
