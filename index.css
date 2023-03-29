@@ -69,9 +69,24 @@ i{
     cursor: pointer;
     margin-inline-end: 5px;
 }
+.add-sty-outline{
+   width: 6.5rem !important;
+    height: 2.5rem !important;
+    color: #FFF  ;
+    background-color: #222;
+  
+    width: 5.3rem; 
+    height: 2.7rem    ;
+    border:#BD5FFF 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-inline-end: 5px;
+}
 .sup-card{
   display: flex;
   flex-wrap: wrap;
+  height: max-content;
+  
 }
 
 .proj{
@@ -98,7 +113,11 @@ i{
     line-height: 1.43;
     letter-spacing: 0.01071em;
     margin: 1em 1em 1em 0;
+    height: max-content;
 
+}
+.btns{
+  margin-top: 1rem;
 }
 .card-title{
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
